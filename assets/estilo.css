@@ -1,14 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,500&display=swap');
+
 * {
     margin: 0; padding: 0; box-sizing: border-box;
 }
 
 body {
     width: 100%;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.header {
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .logo img {
-    width: 10%;
+    width: 20%;
     border-radius: 100px;
+    padding: 5px;
 }
 
 .icone {
@@ -22,3 +34,70 @@ body {
   'GRAD' 0,
   'opsz' 48
 }
+
+.menu-itens ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu-itens ul li {
+    display: inline-block;
+    list-style: none;
+    
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menu-itens ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border-bottom: 5px transparent;
+}
+
+.menu-itens ul li a:hover{
+    color: yellow;
+    border-bottom: 5px yellow solid;
+}
+
+.fachada-e-ambiente {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fachada img {
+    width: 100%;
+}
+
+.ambiente {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ambiente h1 {
+    text-align: center;
+    border-bottom: 5px solid transparent;
+}
+
+.ambiente h1:hover {
+    border-bottom: 5px solid yellow;
+}
+
+.ambiente p {
+    width: 80%;
+    text-align: justify;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
