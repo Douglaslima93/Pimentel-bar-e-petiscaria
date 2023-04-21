@@ -108,17 +108,17 @@ body {
     background-color: brown;
 }
 
-.especialidade h2{
+.especialidade h2 , .esperando h2{
     text-align: center;
     margin-top: 50px;
     border-bottom: 5px solid transparent;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 50%;
     padding: 20px;
 }
 
-.especialidade h2:hover{
+.especialidade h2:hover, .esperando h2:hover{
     border-bottom: 5px solid yellow;
 }
 
@@ -173,3 +173,19 @@ body {
 #switch {
     display: none;
 }
+
+.esperando h3 {
+    text-align: center;
+    padding: 10px;
+    color: brown;
+    font-size: 25px;
+}
+
+.swiper {
+    width: 600px;
+    height: 600px;
+}
+
+
+
+
