@@ -118,7 +118,7 @@ body {
     padding: 20px;
 }
 
-.especialidade h2:hover, .esperando h2:hover{
+.especialidade h2:hover, .esperando h2:hover, .contato h3:hover , .siga h3:hover{
     border-bottom: 5px solid yellow;
 }
 
@@ -236,6 +236,68 @@ td , th {
     border: 2px solid black;
     padding: 5px;
 }
+
+.contato{
+    padding: 10px;
+}
+
+.contato h3 , .siga h3 {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 5px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.contato p , .siga p {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.icons img:hover {
+    background-color: yellow;
+}
+
+.siga {
+    background-color: rgb(129, 92, 22);
+    padding: 10px;
+}
+
+.direito{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.direito span{
+    border-bottom: 5px solid transparent;
+    font-size: 18px;
+}
+
+.direito span:hover{
+    border-bottom: 5px solid yellow;
+}
+
+
+
+
+
+
+
+
 
 
 
