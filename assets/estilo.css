@@ -185,6 +185,62 @@ body {
     height: 600px;
 }
 
+.mapa-tabela{
+    width: 100%;
+    height: 70vh;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.mapa iframe {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mapa span{
+    margin-top: 5px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+}
+
+.mapa span:hover{
+    margin-top: 5px;
+    text-align: center;
+    border-bottom: 5px solid yellow;
+}
+
+.tabela table{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.tabela table thead tr{
+    background-color: gray;
+    margin: 0;
+}
+
+td , th {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+
+
+
+
 
 
 
