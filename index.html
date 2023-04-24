@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="./assets/estilo.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 <body>
 
@@ -89,32 +89,23 @@
                 <h3>Vem se deliciar!</h3>
             </div>
 
-        
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="project-img">
-                        <img src="./assets/img/imagem5.jpeg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="project-img">
-                        <img src="./assets/img/imagem6.jpeg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="project-img">
-                        <img src="./assets/img/imagem7.jpeg" alt="">
-                        </div>
-                    </div>
+            <div class="swiffy-slider">
+                <ul class="slider-container">
+                    <li><img src="./assets/img/imagem5.jpeg" alt=""></li>
+                    <li><img src="./assets/img/imagem6.jpeg" alt=""></li>
+                    <li><img src="./assets/img/imagem7.jpeg" alt=""></li>
+                </ul>
+            
+                <button type="button" class="slider-nav"></button>
+                <button type="button" class="slider-nav slider-nav-next"></button>
+            
+                <div class="slider-indicators">
+                    <button class="active"></button>
+                    <button></button>
+                    <button></button>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-scrollbar"></div>
             </div>
+       
         </section>
 
         <section class="mapa-tabela">
@@ -186,10 +177,12 @@
                 <div class="contato">
                     <h3>DÚVIDAS? ENTRE EM CONTATO CONOSCO.</h3>
                     <p>Através do telefone ou whatsapp, tire todas as suas dúvidas com o nosso time de atendimento.</p>
+
                     <div class="icons">
                     <a href="tel:+5515991152991"><img src="./assets/img/phone.png"></a>
-                    <a href="https://web.whatsapp.com/send?phone=+5515991152991"><img src="./assets/img/whatsapp.png" alt="whatsapp"></a>
+                    <a href="https://web.whatsapp.com/send?phone=+5515991152991"><img src="./assets/img/whatsapp.png" alt="whatsapp"></a>                    
                     </div>
+
                 </div>
 
                 <div class="siga">
@@ -217,6 +210,6 @@
     </main>
     
     <script src="./assets/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9.1.1/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
 </body>
 </html>
