@@ -161,7 +161,7 @@ body {
     backface-visibility: hidden;
 }
 
-.front img, .back img, .fachada img {
+.front img, .back img, .fachada img ,.slider-container img{
     border-radius: 20px;
     box-shadow: 5px 5px black;
 }
@@ -183,6 +183,22 @@ body {
     padding: 10px;
     color: brown;
     font-size: 25px;
+}
+
+.swiffy-slider {
+  
+}
+
+.slider-container {
+    text-align: center; 
+}
+
+.slider-container img {
+    margin-bottom: 20px;
+}
+
+.slider-nav:hover{
+    background-color: black;
 }
 
 .mapa-tabela{
