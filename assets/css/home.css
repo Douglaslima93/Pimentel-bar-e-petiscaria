@@ -28,6 +28,7 @@ body {
 }
 
 .material-symbols-outlined {
+    display: none;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -185,10 +186,6 @@ body {
     font-size: 25px;
 }
 
-.swiffy-slider {
-  
-}
-
 .slider-container {
     text-align: center; 
 }
@@ -306,6 +303,111 @@ td , th {
 .direito span:hover{
     border-bottom: 5px solid yellow;
 }
+
+@media only screen and (max-device-width: 500px) { 
+    .logo img {
+        width: 100%;
+        border-radius: 100px;
+        padding: 5px;
+    }
+
+    .menu-itens ul li {
+        font-size: 15px;
+    }
+
+    .fachada-e-ambiente {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    .fachada img {
+        margin-top: 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .ambiente {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .especialidade-container{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: space-around;
+        margin-top: auto;
+    }
+
+   
+    
+    
+
+    .front img, .back img {
+      width: 100%;
+    }
+
+    .esperando {
+        width: 100%;
+    }
+    
+    
+    .slider-container {
+        text-align: center; 
+    }
+    
+    .slider-container img {
+        width: 80%;
+    }
+    
+    .slider-nav:hover{
+        background-color: transparent;
+    }
+
+    .especialidade h2 , .esperando h2{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .mapa-tabela{
+        width: 100%;
+        height: 150vh;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .mapa {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .mapa iframe {
+        width: 300px;
+    }
+
+    .tabela table{
+        width: 300px;
+        height: 300px;
+        
+    }
+}
+    
+
 
 
 
